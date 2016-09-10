@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">JavaFy OCA/OCP</string>
+    <string name="text">JavaFy OCA/OCP</string>
+
+    <string name="simple">Simple : </string>
+    <string name="simpledetails">► Java is a Simple Language with syntax similar to C++ so its easy to learn.</string>
+
+    <string name="objectoriented">Object Oriented : </string>
+    <string name="objorenteddetails">► Java is a truely object oriented language. All programs in java are managed with Objects and Classes.</string>
+
+    <string name="robust">Robust : </string>
+    <string name="robustdetails">► Java programs are robust in nature as java provides automatic garbage collection for unused objects and also provides proper exception handling which inturn prevents system from crashing.</string>
+    <string name="robustdetails1">► To achieve high reliablity java check the code at compile time as well as runtime.</string>
+
+    <string name="platformindependent">Platform Independent : </string>
+    <string name="platformindependentdetails">► Java programs are platform independent i.e. they can be executed from different environments.</string>
+    <string name="platformindependentdetails2">► Java achieves architecture neutrality because java compiler produces an interemediate code known as bytecode for a machine which does not exist.</string>
+    <string name="platformindependentdetails3">► The virtual machine is known as Java Virtual Machine and this exists in computers memory.</string>
+
+    <string name="cmpled">Compiled and Interpreted : </string>
+    <string name="cmpleddetails">► Java is both compiled and interpreted. In the first stage the compiler translates source code into bytecode. In the second stage, java interpreter generates machine code from bytecode which can be run on different machines</string>
+
+    <string name="multithreaded">Multithreaded : </string>
+    <string name="multithreadeddetails">► Java supports multithreading allowing tasks to be run simultaneously. This makes it easier to finish multiple tasks at the same time without waiting for one to finish.</string>
+
+    <string name="hprfrm">High Performance : </string>
+    <string name="hprfmdetails">► Java uses JIT compiler (Just In Time) which is built in JVM. JIT compiler reads bytecodes into sections and compiles into machine language faster thus high performance is obtained.</string>
+
+    <string name="secure">Secure : </string>
+    <string name="securedetails">► JVM observes what the program is doing and can prevent suspicious actions thus making the system secure.</string>
+
+    <string name="distrbtd">Distributed : </string>
+    <string name="distrbtddetails">► Java is designed for distributed environment as it handles TCP/IP protocols. Java applications can access remote procedures and objects on the internet enabling sharing of data and programs on the internet</string>
+
+    <string name="dynamic">Dynamic : </string>
+    <string name="dynamicdetails">► Java is a dynamic language i.e. capable of linking new classes, libraries, methods and objects on the fly. This is dependent on runtime queries and responses of users.</string>
+
+    <string name="jdkenv">► Java Environment includes a large no. of development tools which are a part of Java Development Kit (JDK).  </string>
+    <string name="jdkenv2">► Java Environment also includes classes and methods that are a part of Java Standard Library also known as Application Programming Interface or API.</string>
+
+
+</resources>
