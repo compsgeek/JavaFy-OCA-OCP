@@ -1,8 +1,8 @@
 package in.compsgeek.javafyocaocp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
@@ -13,7 +13,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import in.compsgeek.javafyocaocp.topics.*;
+import in.compsgeek.javafyocaocp.topics.lesson0topic0;
+import in.compsgeek.javafyocaocp.topics.lesson0topic1;
+import in.compsgeek.javafyocaocp.topics.lesson0topic2;
+import in.compsgeek.javafyocaocp.topics.lesson0topic3;
+import in.compsgeek.javafyocaocp.topics.lesson0topic4;
 
 public class ListActivity extends AppCompatActivity {
 
@@ -53,8 +57,13 @@ public class ListActivity extends AppCompatActivity {
                         Intent child2Intent = new Intent(getBaseContext(), lesson0topic2.class);
                         startActivity(child2Intent);}
                     if(childPosition == 3){
-                        Intent child2Intent = new Intent(getBaseContext(), lesson0topic3.class);
-                        startActivity(child2Intent);}
+                        Intent child3Intent = new Intent(getBaseContext(), lesson0topic3.class);
+                        startActivity(child3Intent);
+                    }
+                    if (childPosition == 4) {
+                        Intent child4Intent = new Intent(getBaseContext(), lesson0topic4.class);
+                        startActivity(child4Intent);
+                    }
 
                 }
 //                if(groupPosition==1){

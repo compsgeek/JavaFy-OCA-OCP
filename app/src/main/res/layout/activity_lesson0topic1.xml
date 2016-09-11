@@ -17,24 +17,24 @@
             android:id="@+id/collapse_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true"
             app:contentScrim="@color/colorAccent"
-            android:fitsSystemWindows="true">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:id="@+id/bgheader"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-
                 android:fitsSystemWindows="true"
+
+                android:scaleType="centerCrop"
                 app:layout_collapseMode="pin" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/MyToolbar"
                 android:layout_width="match_parent"
-                android:titleTextColor="@color/whitetext"
                 android:layout_height="?attr/actionBarSize"
+                android:titleTextColor="@color/whitetext"
                 app:layout_collapseMode="parallax" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -53,11 +53,11 @@
     android:orientation="vertical">
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,29 +69,29 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/simple"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/simple" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/simpledetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/simpledetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -103,28 +103,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/objectoriented"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/objectoriented" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/objorenteddetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/objorenteddetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -136,27 +136,27 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/robust"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/robust" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/robustdetails"
+                android:paddingBottom="5dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="5dp" />
+                android:paddingTop="15dp"
+                android:text="@string/robustdetails" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/robustdetails1"
+                android:paddingBottom="5dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="5dp" />
+                android:paddingTop="15dp"
+                android:text="@string/robustdetails1" />
 
 
 
@@ -164,11 +164,11 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -180,42 +180,43 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/platformindependent"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/platformindependent" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/platformindependentdetails"
+                android:paddingBottom="5dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="5dp" />
+                android:paddingTop="15dp"
+                android:text="@string/platformindependentdetails" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/platformindependentdetails2"
+                android:paddingBottom="5dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="5dp" />
+                android:paddingTop="15dp"
+                android:text="@string/platformindependentdetails2" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/platformindependentdetails3"
+                android:paddingBottom="5dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="5dp" />
+                android:paddingTop="15dp"
+                android:text="@string/platformindependentdetails3" />
 
             <ImageView
+                android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 android:paddingBottom="40dp"
-                android:id="@+id/imageView1"
                 android:src="@drawable/platformindependent"/>
 
         </LinearLayout>
@@ -224,11 +225,11 @@
 
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -240,20 +241,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/cmpled"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/cmpled" />
+                android:textStyle="bold" />
 
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/cmpleddetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/cmpleddetails" />
 
 
 
@@ -262,11 +263,11 @@
 
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -278,28 +279,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/multithreaded"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/multithreaded" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/multithreadeddetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/multithreadeddetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -311,28 +312,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/hprfrm"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/hprfrm" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hprfmdetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/hprfmdetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -344,28 +345,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/secure"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/secure" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/securedetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/securedetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -377,28 +378,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/distrbtd"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/distrbtd" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/distrbtddetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/distrbtddetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -410,18 +411,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/dynamic"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/dynamic" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/dynamicdetails"
+                android:paddingBottom="20dp"
                 android:paddingLeft="15dp"
-                android:paddingTop="15dp"
                 android:paddingRight="5dp"
-                android:paddingBottom="20dp" />
+                android:paddingTop="15dp"
+                android:text="@string/dynamicdetails" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -430,11 +431,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:paddingBottom="50dp"
         android:paddingLeft="15dp"
-        android:paddingTop="115dp"
         android:paddingRight="5dp"
-        android:paddingBottom="50dp" />
+        android:paddingTop="115dp"
+        android:text="" />
 
 </LinearLayout>
 

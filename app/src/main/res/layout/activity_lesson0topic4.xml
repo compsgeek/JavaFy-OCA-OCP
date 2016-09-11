@@ -70,7 +70,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="► JRE is a combination of :"
+                        android:text="► History of Java versions :"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                         android:paddingLeft="15dp"
 
                         android:paddingRight="5dp"
-                        android:text="1. Java Virtual Machine" />
+                        android:text="1. Sun started naming java versions as JDK (Java Development Kit) and then changed to J2SE (Java 2 Standard Edition) from version 1.2 onwards." />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                         android:paddingLeft="15dp"
 
                         android:paddingRight="5dp"
-                        android:text="2. Java API Classes" />
+                        android:text="2. The Java 1.2 to 1.4 are also known as JAVA 2 and 1.5 is known as JAVA 5" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -99,20 +99,22 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
                         android:paddingTop="15dp"
-                        android:text="► Each OS and CPU architecture requires a different version of JRE without which it is impossible to run java applications." />
+                        android:text="► The following table shows a summary of java versions upto java 6." />
 
                     <ImageView
                         android:id="@+id/imageView1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:paddingLeft="15dp"
+                        android:paddingLeft="5dp"
                         android:paddingRight="5dp"
+                        android:paddingTop="0dp"
                         android:scaleType="fitStart"
-                        android:src="@drawable/jre" />
+                        android:src="@drawable/javaversions" />
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
@@ -131,7 +133,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="► Java API (Application Programming Interface) :"
+                        android:text="► Java Platform :"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textStyle="bold" />
 
@@ -141,7 +143,7 @@
                         android:paddingBottom="10dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
-                        android:text="Java API includes classes and methods grouped together into packages of which few of them are listed below :" />
+                        android:text="To develop applications in Java on different systems, there are different kinds of java platforms :" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -149,7 +151,7 @@
                         android:paddingBottom="5dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
-                        android:text="1. import java.lang.*;"
+                        android:text="1. Java ME"
                         android:textStyle="bold|italic" />
 
                     <TextView
@@ -159,7 +161,7 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
                         android:paddingTop="0dp"
-                        android:text="These are collection of classes for implementing basic functions of java" />
+                        android:text="Java Micro Edition is a collection of APIs for developing apps on mobile devices." />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -167,7 +169,7 @@
                         android:paddingBottom="5dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
-                        android:text="2. import java.util.*;"
+                        android:text="2. Java SE"
                         android:textStyle="bold|italic" />
 
                     <TextView
@@ -177,7 +179,7 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
                         android:paddingTop="0dp"
-                        android:text="These are collection of classes for implementing Utility functions such as date and time functions." />
+                        android:text="Java Standard Edition is used for developing general purpose software applications for Desktop and servers." />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -185,7 +187,7 @@
                         android:paddingBottom="5dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
-                        android:text="3. import java.io.*;"
+                        android:text="3. Java EE"
                         android:textStyle="bold|italic" />
 
                     <TextView
@@ -195,117 +197,23 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="5dp"
                         android:paddingTop="0dp"
-                        android:text="These are collection of classes for implementing I/O manupulations" />
+                        android:text="Java Enterprise Edition is used to develop and run distributed multi-tier architecture java applications which usually run on application servers." />
 
-                    <TextView
+
+                    <ImageView
+                        android:id="@+id/imageView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingBottom="5dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="5dp"
-                        android:text="4. import java.awt.*;"
-                        android:textStyle="bold|italic" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="5dp"
-                        android:paddingLeft="15dp"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:paddingTop="0dp"
-                        android:text="Abstract window toolkit package contains classes for implementing GUI" />
-
+                        android:scaleType="fitStart"
+                        android:src="@drawable/versions" />
 
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Java Virtual Machine (JVM) :"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="5dp"
-                        android:text="► JVM is the heart of entire java program execution process, it is responsible for taking the .class file and converting it to machine code to be executed by processor." />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
-                        android:paddingBottom="5dp"
-                        android:scaleType="fitStart"
-                        android:src="@drawable/jvm1" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="► Class Loader SubSystem:"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="5dp"
-                        android:text="First it loads the .class file into the memory and then verifies whether all bytecode instructions are proper or not. If any instruction is found suspicious then the execution is rejected immediately." />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="5dp"
-                        android:text="If the instructions are proper, then it allocates the necessary memory to execute the program." />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="5dp"
-                        android:text="The Memory is divided into 5 parts called runtime data areas which contain data and results while running the program. These areas are as follows."
-                        android:textStyle="bold|italic" />
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
-                        android:scaleType="fitStart"
-                        android:src="@drawable/jvm2" />
-
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-
-
-
-
-
-
-
 
 
             <TextView

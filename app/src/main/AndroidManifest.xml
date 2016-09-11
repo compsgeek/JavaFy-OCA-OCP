@@ -19,7 +19,8 @@
         <activity android:name=".topics.lesson0topic0" />
         <activity android:name=".topics.lesson0topic1" />
         <activity android:name=".topics.lesson0topic2" />
-        <activity android:name=".topics.lesson0topic3"></activity>
+        <activity android:name=".topics.lesson0topic3" />
+        <activity android:name=".topics.lesson0topic4"></activity>
     </application>
 
 </manifest>
