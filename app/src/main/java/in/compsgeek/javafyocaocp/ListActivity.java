@@ -18,6 +18,7 @@ import in.compsgeek.javafyocaocp.topics.lesson0topic1;
 import in.compsgeek.javafyocaocp.topics.lesson0topic2;
 import in.compsgeek.javafyocaocp.topics.lesson0topic3;
 import in.compsgeek.javafyocaocp.topics.lesson0topic4;
+import in.compsgeek.javafyocaocp.topics.lesson0topic5;
 
 public class ListActivity extends AppCompatActivity {
 
@@ -63,6 +64,10 @@ public class ListActivity extends AppCompatActivity {
                     if (childPosition == 4) {
                         Intent child4Intent = new Intent(getBaseContext(), lesson0topic4.class);
                         startActivity(child4Intent);
+                    }
+                    if (childPosition == 5) {
+                        Intent child5Intent = new Intent(getBaseContext(), lesson0topic5.class);
+                        startActivity(child5Intent);
                     }
 
                 }

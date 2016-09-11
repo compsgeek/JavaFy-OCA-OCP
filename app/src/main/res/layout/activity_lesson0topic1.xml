@@ -85,7 +85,6 @@
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
-
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -222,8 +221,6 @@
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
-
-
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -260,7 +257,6 @@
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
-
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
