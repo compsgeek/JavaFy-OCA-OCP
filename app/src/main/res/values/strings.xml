@@ -1,4 +1,8 @@
 <resources>
+    <string name="admob_interstitial_id">ca-app-pub-8104857144637985/2482886879</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8104857144637985/2482886879</string>
+    <!--string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string-->
+
     <string name="app_name">JavaFy OCA/OCP</string>
     <string name="text">JavaFy OCA/OCP</string>
 
@@ -6,11 +10,11 @@
     <string name="simpledetails">► Java is a Simple Language with syntax similar to C++ so its easy to learn.</string>
 
     <string name="objectoriented">Object Oriented : </string>
-    <string name="objorenteddetails">► Java is a truely object oriented language. All programs in java are managed with Objects and Classes.</string>
+    <string name="objorenteddetails">► Java is a truly object oriented language. All programs in java are managed with Objects and Classes.</string>
 
     <string name="robust">Robust : </string>
     <string name="robustdetails">► Java programs are robust in nature as java provides automatic garbage collection for unused objects and also provides proper exception handling which inturn prevents system from crashing.</string>
-    <string name="robustdetails1">► To achieve high reliablity java check the code at compile time as well as runtime.</string>
+    <string name="robustdetails1">► To achieve high reliability java check the code at compile time as well as runtime.</string>
 
     <string name="platformindependent">Platform Independent : </string>
     <string name="platformindependentdetails">► Java programs are platform independent i.e. they can be executed from different environments.</string>

@@ -8,6 +8,9 @@ import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -88,6 +91,10 @@ public class ListActivity extends AppCompatActivity {
         });
 
 
+        // Create Banner Ads
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
     }
